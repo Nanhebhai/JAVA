@@ -1,0 +1,13 @@
+// write a program to check the number is even or odd with modulus operator
+public class pro2 {
+    public static void main(String[] args) {
+        int number = 7; // You can change this value to test with other numbers
+
+        // Check if the number is even or odd using modulus operator
+        if (number % 2 == 0) {
+            System.out.println(number + " is an Even number.");
+        } else {
+            System.out.println(number + " is an Odd number.");
+        }
+    }
+}
