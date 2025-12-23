@@ -8,5 +8,7 @@ public class pro3
 		   System.out.println("College Chalo");
         else
            System.out.println("Koe Tension nahi");
+
+        atten.close();
 	}
 }
